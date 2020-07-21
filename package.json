@@ -1,0 +1,23 @@
+{
+  "name": "concrete",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "typeorm": "^0.2.25"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.7",
+    "@types/node": "^14.0.24",
+    "ts-node": "^8.10.2",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "start": "node --loader ts-node/esm --experimental-specifier-resolution=node --experimental-top-level-await --no-warnings ./src/app.ts"
+  }
+}
